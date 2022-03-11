@@ -1,41 +1,35 @@
 body {
     font-family: Outfit, sans-serif;
     font-size: 15px;
-    font-weight: 300;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.parametro {
+.card {
     background-color: hsl(0, 0%, 100%); border-radius: 20px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 17px;
     width: 275px;
 }
-#imagem {
+.qrcode {
     border-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     width: 100%;
 }
-#espaço {
-    padding: 7px;
-}
-#texto1 {
+.title {
     font-size: 23px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
-    padding-top: 0px;
     padding-bottom: 6px;
 }
-#texto2 {
+.description {
     color: hsl(220, 15%, 55%);
     text-align: center;
     padding-bottom: 20px;
-    font-size: 16px;
 }
